@@ -21,5 +21,5 @@ public class Ayuda01 {
         System.out.printf("La inicial es %s, pero en tipo String\n", inicialDos);
         
         System.out.println(inicialDos.equals("L"));
-    }
-}
+    }}
+

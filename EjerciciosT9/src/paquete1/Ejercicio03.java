@@ -29,13 +29,14 @@ public class Ejercicio03 {
         for (int i = 0; i < arreglo.length; i++) {
             if (arreglo[i] > media) {
                 elementosArribaMedia = elementosArribaMedia + 1;
-            }else{elementosAbajoMedia = elementosAbajoMedia + 1;
+            } else {
+                elementosAbajoMedia = elementosAbajoMedia + 1;
             }
 
         }
         System.out.printf("El número de valores por encima de la media es %d\n"
                 + "El número de valores por debajo de la media es %d\n",
-                elementosArribaMedia, 
+                elementosArribaMedia,
                 elementosAbajoMedia);
     }
 }
